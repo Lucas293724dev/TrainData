@@ -32,4 +32,4 @@ const TrainSchedulePage = () => {
     );
 };
 
-export default TrainSchedulePage;
+export default index;
