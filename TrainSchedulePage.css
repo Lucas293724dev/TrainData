@@ -1,0 +1,60 @@
+.train-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.train-schedule h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.train-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.train-schedule th, .train-schedule td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.train-schedule th {
+  background-color: #007bff;
+  color: white;
+}
+
+.train-schedule tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.train-schedule tr:hover {
+  background-color: #d1e7dd;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .train-schedule {
+    padding: 10px;
+  }
+  .train-schedule h1 {
+    font-size: 2rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.train-schedule {
+  animation: fadeIn 0.5s ease-in;
+}
