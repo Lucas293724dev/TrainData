@@ -2,7 +2,7 @@
   "name": "train-data",
   "version": "1.0.0",
   "description": "A project for training data processing",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
